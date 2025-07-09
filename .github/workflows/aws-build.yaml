@@ -6,8 +6,7 @@ name: docker build to ECR
 jobs:
   deploy:
     name: Deploy
-    runs-on:
-      group: ActionRunnerLocalGroup
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout
